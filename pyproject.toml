@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "drf-serializers-and-filters-24-2"
+version = "0.1.0"
+description = ""
+authors = ["Gennady Gubin"]
+readme = "README.md"
+packages = [{include = "drf_serializers_and_filters_24"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipython = "^8.20.0"
+django = "^5.0.1"
+djangorestframework = "^3.14.0"
+django-filter = "^23.5"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
